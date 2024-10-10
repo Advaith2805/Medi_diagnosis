@@ -1,5 +1,5 @@
 # Medi_diagnosis
-#COVID-19 and Pneumonia Detection using CNN
+COVID-19 and Pneumonia Detection using CNN
 This project uses Convolutional Neural Networks (CNNs) to detect Pneumonia and COVID-19 from medical images (X-Rays and CT Scans). It was developed as part of an internship at the RAPID (Research in AI for development of Interdisciplinary Sciences) center at PES University.
 Table of Contents
 
@@ -20,19 +20,7 @@ COVID-19 X-Ray Detection: Examines chest X-rays to identify potential COVID-19 c
 COVID-19 CT Scan Detection: Analyzes CT scans to detect the presence of COVID-19.
 
 All models are based on the ResNet-18 architecture, which was chosen for its depth, efficiency, and robustness in handling medical imaging tasks.
-Installation
-To set up this project, follow these steps:
 
-Clone the repository:
-Copygit clone https://github.com/your-username/covid-pneumonia-detection.git
-cd covid-pneumonia-detection
-
-Create a virtual environment and activate it:
-Copypython -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
-Install the required dependencies:
-Copypip install -r requirements.txt
 
 
 Usage
